@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Aldrich&family=Big+Shoulders+Display:wght@700&family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;700&family=Karla:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Montserrat:wght@700&family=Outfit:wght@300;600&family=Raleway:ital,wght@1,300&family=Red+Hat+Display:wght@500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aldrich&family=Big+Shoulders+Display:wght@700&family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;700&family=Karla:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Montserrat:wght@700&family=Outfit:wght@300;600;700&family=Raleway:ital,wght@1,300&family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f2f2f2;
+  font-family: "Outfit", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+
+.container {
+  width: 320px;
+  height: 497px;
+  background: #ffffff;
+  box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0476518);
+  border-radius: 20px;
+  padding: 16px;
+}
+
+img {
+  max-width: 100%;
+  background: #2c7dfa;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  color: #1f314f;
+}
+
+p {
+  color: #7d889e;
+  font-size: 15px;
+  padding: 16px;
+  text-align: center;
+  letter-spacing: 0.1875px;
+  font-weight: 400;
+  line-height: 19px;
+}
